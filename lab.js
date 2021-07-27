@@ -226,6 +226,7 @@ var letters = ['A', 'B', 'C', 'D', 'E'];
 
 //Code Here
 
+//Thought process-
 // i = the length of the array - 1 (because the array index starts at 0), as long as i >= 0, 
 // console.log said item from the array, - 1 from i and loop
 
@@ -305,15 +306,16 @@ default:
 
 //Code Here
 
-for (let i = 0; i < 100; i++){
- if (i % 3 === 0){
-   console.log('Dev')
+for (let i = 1; i < 100; i++){
+ if (i % 5 === 0 && i % 3 === 0){
+  console.log('Devmountain')
  } else if (i % 5 === 0){
-   console.log('Devmountain')
+   console.log('mountain')
+ } else if (i % 3 === 0){
+  console.log('Dev')
  } else {
    console.log(i)
  }
 }
-
 
 //TOO EZ
